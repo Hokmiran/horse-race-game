@@ -1,0 +1,29 @@
+.start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divs {
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    height: 70vh;
+    width: 5px;
+    background-color: red;
+    margin-right: 570px;
+}
+.div {
+    transition: ease-in-out;
+}
+
+.button {
+    cursor: pointer;
+}

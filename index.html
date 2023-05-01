@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <audio id="myAudio">
+            <source src="./horse-123780.mp3" type="audio/mpeg">
+        </audio>
+        <div class="divs">
+            <div class="div" id="horse1">
+                <img height="100px" src="https://i.pinimg.com/originals/01/62/4a/01624a1b21d9557f45667802439c2589.gif"
+                    alt="horse">
+            </div>
+            <div class="div" id="horse2">
+                <img height="150px" src="https://thumbs.gfycat.com/RemoteWatchfulIlladopsis-size_restricted.gif"
+                    alt="horse">
+            </div>
+            <div class="div" id="horse3">
+                <img height="100px"
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Animhorse.gif?20200207012559" alt="horse">
+            </div>
+        </div>
+
+        <div class="line">
+
+        </div>
+    </div>
+    <div class="start">
+        <button class="button" id="button">
+            Start
+        </button>
+    </div>
+    <h1>Horse Betting</h1>
+    <label for="horse">Select a horse:</label>
+    <select id="horse">
+        <option value="0">Horse 1</option>
+        <option value="1">Horse 2</option>
+        <option value="2">Horse 3</option>
+    </select>
+    <br />
+    <br />
+    <label for="bet">Enter the bet amount:</label>
+    <input type="number" id="bet" />
+    <br />
+    <h2 id="wallet">
+        
+    </h2>
+    <script src="./main.js">
+    </script>
+</body>
+
+</html>
